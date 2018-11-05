@@ -8,7 +8,7 @@ fi
 if [ "$NEWIP" != "$OLDIP" ]; then
 	#echo "true"
 	echo "$NEWIP" > /home/pi/ip.txt
-	mutt -s "IP" 8608332915@vtext.com < /home/pi/ip.txt
+	mutt -s "IP" **********@vtext.com < /home/pi/ip.txt
 fi
 
 
